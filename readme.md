@@ -40,6 +40,33 @@ You can interact with the contract using any Ethereum wallet (such as MetaMask) 
 
 ### Steps to Deploy and Test:
 1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/yourusername/MyToken.git
+   ```
+   git clone https://github.com/muskan171105/MyToken.git
    cd MyToken
+2. **Compile the contract:**
+- Use Remix IDE or run the following command if using a local development environment:
+  ```
+  solc --optimize --bin --abi MyToken.sol -o build/
+  ```
+3. **Deploy the contract:**
+ You can deploy the contract on any Ethereum-compatible test network like Goerli or Rinkeby using Remix or any Ethereum development tool like Truffle.
+
+4. **Interact with the contract:**
+   Use the functions available to transfer tokens, approve an allowance, or burn tokens from an address.
+
+### Example Interactions:
+
+1. **Transfer Tokens**: 
+   - You can transfer tokens to another address using the `transfer` function:
+   ```solidity
+   transfer(address recipient, uint256 amount)
+   ```
+This will transfer the specified amount of tokens from the caller’s account to the recipient address.
+
+2. **Burn Tokens**:
+   ```solidity
+   burn(uint256 amount)
+    ```
+This will permanently reduce the total supply by the amount specified from the caller’s account.
+
+
