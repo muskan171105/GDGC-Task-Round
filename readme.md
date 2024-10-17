@@ -48,3 +48,6 @@ You can interact with the contract using any Ethereum wallet (such as MetaMask) 
 2. In the Environment dropdown, choose `Remix VM (Cancun)`. This simulates a local blockchain in your browser.
 3. Click Deploy. This will deploy the contract locally in the browser, and you can interact with it without using real or test ETH.
 4. Once deployed, you can interact with the contract functions like `transfer`, `balanceOf`, `approve`, etc., from the UI.
+
+### Contract Deployed Successfully
+![My Token Image](https://github.com/muskan171105/GDGC-Task-Round/blob/main/Screenshot2024-10-17-102254.png)
