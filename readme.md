@@ -50,4 +50,4 @@ You can interact with the contract using any Ethereum wallet (such as MetaMask) 
 4. Once deployed, you can interact with the contract functions like `transfer`, `balanceOf`, `approve`, etc., from the UI.
 
 ### Contract Deployed Successfully
-![My Token Image](https://github.com/muskan171105/GDGC-Task-Round/blob/main/Screenshot2024-10-17-102254.png)
+![Screenshot of My Token](https://github.com/muskan171105/GDGC-Task-Round/blob/main/Screenshot%202024-10-17%20102254.png)
